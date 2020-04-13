@@ -28,6 +28,7 @@ public class Clickonlink extends Base {
 		System.out.println("from manish class");
 		System.out.println("again from rahul eclipse");
 		System.out.println("creating brunch");
+		System.out.println("switch to master from develop branch");
 	}
 	@AfterTest()
 	public void teardown() {

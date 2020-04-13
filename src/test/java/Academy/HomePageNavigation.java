@@ -35,6 +35,7 @@ public class HomePageNavigation extends Base {
 		log.info(password);
 		System.out.println("from manish class");
 		System.out.println("again from rahul eclipse");
+		System.out.println("switch to master from develop branch");
 	}
 
 	@AfterTest
