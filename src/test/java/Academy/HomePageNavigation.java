@@ -33,6 +33,7 @@ public class HomePageNavigation extends Base {
 		lg.ClickLOgin().click();
 		log.info(username + password);
 		log.info(password);
+		System.out.println("from manish class");
 	}
 
 	@AfterTest

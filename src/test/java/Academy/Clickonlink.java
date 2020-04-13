@@ -25,6 +25,7 @@ public class Clickonlink extends Base {
 		
 		lpg.ClickHome().click();
 		log.info("clicked on link");
+		System.out.println("from manish class");
 	}
 	@AfterTest()
 	public void teardown() {

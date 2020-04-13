@@ -27,8 +27,8 @@ public class Base {
 		FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"\\src\\main\\java\\resourses\\data.properties");
 		prop.load(fis);
 		//mvn test -Dbrowser=Chrome
-		String browserName=System.getProperty("browser");//To give browser name through Maven//
-		//String browserName=prop.getProperty("Browser"); //To give browser name through TestNg//
+		//String browserName=System.getProperty("browser");//To give browser name through Maven//
+		String browserName=prop.getProperty("Browser"); //To give browser name through TestNg//
 		if(browserName.contains("Chrome")) {
 			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\src\\main\\java\\resourses\\chromedriver.exe");
 			ChromeOptions options=new ChromeOptions();

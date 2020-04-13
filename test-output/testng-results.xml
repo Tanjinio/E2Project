@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="0" passed="0" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-04-08T14:42:27 EDT" name="Suite" finished-at="2020-04-08T14:42:27 EDT" duration-ms="0">
+  <suite name="Default suite" duration-ms="14355" started-at="2020-04-13T02:44:29Z" finished-at="2020-04-13T02:44:44Z">
     <groups>
     </groups>
-  </suite> <!-- Suite -->
+    <test name="Default test" duration-ms="14355" started-at="2020-04-13T02:44:29Z" finished-at="2020-04-13T02:44:44Z">
+      <class name="Academy.Clickonlink">
+        <test-method status="PASS" signature="innitialize()[pri:0, instance:Academy.Clickonlink@5542c4ed]" name="innitialize" is-config="true" duration-ms="5955" started-at="2020-04-12T22:44:29Z" finished-at="2020-04-12T22:44:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- innitialize -->
+        <test-method status="PASS" signature="clicklink()[pri:0, instance:Academy.Clickonlink@5542c4ed]" name="clicklink" duration-ms="8185" started-at="2020-04-12T22:44:35Z" finished-at="2020-04-12T22:44:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clicklink -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:Academy.Clickonlink@5542c4ed]" name="teardown" is-config="true" duration-ms="202" started-at="2020-04-12T22:44:43Z" finished-at="2020-04-12T22:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- Academy.Clickonlink -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

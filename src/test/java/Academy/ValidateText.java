@@ -39,6 +39,7 @@ public class ValidateText extends Base {
 		log.info("got the text");
 		Assert.assertTrue(lp.GetNavBar().isDisplayed());
 		log.info("nav bar is displayed");
+		System.out.println("from manish class");
 
 		Assert.assertEquals(lp.GetTitle().getText(), "FEATURED COURSES");
 		log.info("successfully validated text");
