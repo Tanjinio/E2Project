@@ -34,6 +34,7 @@ public class HomePageNavigation extends Base {
 		log.info(username + password);
 		log.info(password);
 		System.out.println("from manish class");
+		System.out.println("again from rahul eclipse");
 	}
 
 	@AfterTest

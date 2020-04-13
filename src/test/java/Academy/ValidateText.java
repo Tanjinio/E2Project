@@ -40,6 +40,7 @@ public class ValidateText extends Base {
 		Assert.assertTrue(lp.GetNavBar().isDisplayed());
 		log.info("nav bar is displayed");
 		System.out.println("from manish class");
+		System.out.println("again from rahul eclipse");
 
 		Assert.assertEquals(lp.GetTitle().getText(), "FEATURED COURSES");
 		log.info("successfully validated text");
